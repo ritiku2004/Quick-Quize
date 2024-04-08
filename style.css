@@ -233,9 +233,12 @@ footer{
     .rule_cont{
         padding: 30px;
         width: 70%;
-        height: 50%;
+        height: 60%;
         justify-content: center;
         font-size: 18px;
+    }
+    .rule-close{
+        margin-top: 0px;
     }
     .select-menu{
         display: flex;
