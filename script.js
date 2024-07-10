@@ -54,12 +54,12 @@ function showQue(i){
     shuffleArray(options);
     let tempq = document.createElement("p");
         tempq.className = "que";
-        tempq.textContent = i+1+". "+currentQuestion.question;
+        tempq.innerHTML = i+1+". "+currentQuestion.question;
         que_cont.prepend(tempq);
     options.forEach(opt => {
         let temp = document.createElement("div");
         temp.className = "opt";
-        temp.textContent = opt;
+        temp.innerHTML = opt;
         opt_cont.appendChild(temp);
         temp.addEventListener("click",()=>{
             i++;
